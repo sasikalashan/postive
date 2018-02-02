@@ -4,15 +4,17 @@ int main()
     int n,t,r,sum=0;
     printf("Enter the number:");
     scanf("%d",&n);
-    for(t=n;n!=0;n=n/10)
+    t=n;
+    while(t!=0)
     {
-        r=n%10;
+        r=t%10;
         sum=sum+(r*r*r);
+        t=t/10;
     }
     if(sum==t)
-    printf("yes",t);
+    printf("yes");
     else
-    printf("no",t);
+    printf("no");
     return 0;
 
 }
