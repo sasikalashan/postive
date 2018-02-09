@@ -4,6 +4,7 @@ int main()
 int a[100],i,max,size;
 printf("Enter the array size:");
 scanf("%d",&size);
+  printf("The %d element:",size);
 for(i=0;i<=size;i++)
 {
 scanf("%d",&a[i]);
