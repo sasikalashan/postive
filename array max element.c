@@ -14,7 +14,7 @@ for(i=1;i<=size;i++)
 {
 if(max<a[i])
 {
-max=n[i];
+max=a[i];
 }
 }
 printf("the max element is:%d",max);
