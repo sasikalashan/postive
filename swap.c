@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int l,m;
 printf("Enter the numbers:");
-scanf("%d %d",&a,&b);
-printf("\nBefor swapping the two numbera a=%d b=%d",a,b);
-c=a;a=b;b=c;
-printf("\nafter swapping a=%d and b=%d",a,b);
+scanf("%d %d",&l,&m);
+printf("\nBefor swapping the two numbera l=%d m=%d",l,m);
+l=l^m;m=l^m;l=l^m;
+printf("\nafter swapping l=%d and m=%d",l,m);
   return 0;
   }
