@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-char a[20];
+char a[100];
 int c=0,i;
 printf("Enter the sentence:");
 gets(a);
