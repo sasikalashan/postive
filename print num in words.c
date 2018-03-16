@@ -3,7 +3,7 @@ int main()
 {
 int n;
 printf("Enter the number:");
-scanf("%d",&n)
+scanf("%d",&n);
 switch(n)
 {
 case 1:
@@ -24,15 +24,19 @@ break;
 case 6:
 printf("six");
 break;
-case 1:
-printf("One");
+case 7:
+printf("Seven");
 break;
-case 1:
-printf("One");
+case 8:
+printf("Eight");
 break;
-case 1:
-printf("One");
+case 9:
+printf("nine");
 break;
-case 1:
-printf("One");
+case 10:
+printf("Ten");
 break;
+    defeult:
+    printf("No such number");
+}
+}
