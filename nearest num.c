@@ -11,7 +11,7 @@ printf("The nerest nuber:%d",nearest);
 }
 else
 {
-printf("pls enter odd number");
+printf("number:%d",a);
 }
 return 0;
 }
