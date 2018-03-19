@@ -6,7 +6,7 @@ printf("Enter the number:");
 scanf("%d",&n);
 for(i=1;i<n;i++)
 {
-printf("%d",a1);
+printf("%d",a2);
 d=a1+a2;
 a1=a2;
 a2=d;
